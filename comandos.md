@@ -28,11 +28,11 @@ Crear aplicacion dentro del proyecto
 Usar PostgreSQL 
 - pip install psycopg2 (instalar psycopg2)
 
-Crear tablas de base de datos
-- python manage.py migrate
-
-Buscar todas las migraciones del proyecto [o en una aplicacion especifica]
+"Compilar" los cambios hechos a la base de datos
 - python manage.py makemigrations [app]
+
+Actualizar la base de datos
+- python manage.py migrate
 
 Shell de Django
 - python manage.py shell
